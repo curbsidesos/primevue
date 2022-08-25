@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Message from 'primevue/message';
+import Message from '@curbsidesos/primevue/message';
 
 Vue.component('Message', Message);

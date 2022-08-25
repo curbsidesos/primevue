@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Dropdown from 'primevue/dropdown';
+import Dropdown from '@curbsidesos/primevue/dropdown';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

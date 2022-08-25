@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Password from 'primevue/password';
+import Password from '@curbsidesos/primevue/password';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

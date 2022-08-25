@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import BlockUI from 'primevue/blockui';
+import BlockUI from '@curbsidesos/primevue/blockui';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

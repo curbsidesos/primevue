@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Tree from 'primevue/tree';
+import Tree from '@curbsidesos/primevue/tree';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

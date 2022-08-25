@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Paginator from 'primevue/paginator';
+import Paginator from '@curbsidesos/primevue/paginator';
 
 Vue.component('Paginator', Paginator);

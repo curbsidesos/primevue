@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import SplitButton from 'primevue/splitbutton';
+import SplitButton from '@curbsidesos/primevue/splitbutton';
 
 Vue.component('SplitButton', SplitButton);

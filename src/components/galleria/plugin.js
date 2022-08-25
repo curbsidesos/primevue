@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Galleria from 'primevue/galleria';
+import Galleria from '@curbsidesos/primevue/galleria';
 
 Vue.component('Galleria', Galleria);

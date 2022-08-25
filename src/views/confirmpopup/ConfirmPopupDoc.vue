@@ -6,7 +6,7 @@
                 <p>ConfirmPopup is controlled via the <i>ConfirmationService</i> that needs to be installed globally before the application
                     instance is created.</p>
 <CodeHighlight lang="javascript">
-import ConfirmationService from 'primevue/confirmationservice';
+import ConfirmationService from '@curbsidesos/primevue/confirmationservice';
 Vue.use(ConfirmationService);
 
 //example application instance
@@ -18,7 +18,7 @@ new Vue({
 
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import ConfirmPopup from 'primevue/confirmpopup';
+import ConfirmPopup from '@curbsidesos/primevue/confirmpopup';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

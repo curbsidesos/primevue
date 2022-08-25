@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import AutoComplete from 'primevue/autocomplete';
+import AutoComplete from '@curbsidesos/primevue/autocomplete';
 
 Vue.component('AutoComplete', AutoComplete);

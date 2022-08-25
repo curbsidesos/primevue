@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Checkbox from 'primevue/checkbox';
+import Checkbox from '@curbsidesos/primevue/checkbox';
 
 Vue.component('Checkbox', Checkbox);

@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import MultiSelect from 'primevue/multiselect';
+import MultiSelect from '@curbsidesos/primevue/multiselect';
 
 Vue.component('MultiSelect', MultiSelect);

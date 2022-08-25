@@ -19,7 +19,7 @@ npm install primeicons --save
 
             <p>Begin with installing PrimeVue. This command only sets up the core configuration like locale and does not register any component.</p>
 <CodeHighlight lang="js">
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@curbsidesos/primevue/config';
 
 Vue.use(PrimeVue);
 </CodeHighlight>
@@ -27,7 +27,7 @@ Vue.use(PrimeVue);
             <p>Then import and register a component from the library. Import path is available in the documentation of the corresponding component.</p>
 
 <CodeHighlight lang="js">
-import Dialog from 'primevue/dialog';
+import Dialog from '@curbsidesos/primevue/dialog';
 
 Vue.component('Dialog', Dialog);
 </CodeHighlight>
@@ -167,7 +167,7 @@ primevue/resources/themes/rhea/theme.css
                 while installing PrimeVue.
             </p>
 <CodeHighlight lang="js">
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@curbsidesos/primevue/config';
 
 Vue.use(PrimeVue, {ripple: true});
 </CodeHighlight>
@@ -184,7 +184,7 @@ Vue.use(PrimeVue, {ripple: true});
 <CodeHighlight class="language-javascript">
 modules: [
     [
-        'primevue/nuxt', {
+        '@curbsidesos/primevue/nuxt', {
             theme: string,      //name of the theme, defaults to saga-blue
             ripple: boolean,    //whether the ripple animation is enabled, defaults to false
             components: [],     //an array of components to be registered
@@ -198,7 +198,7 @@ modules: [
 <CodeHighlight class="language-javascript">
 modules: [
     [
-        'primevue/nuxt', {
+        '@curbsidesos/primevue/nuxt', {
             theme: 'md-light-indigo',
             ripple: true,
             components: ['InputText','Button','DataTable','Dialog'],
@@ -211,7 +211,7 @@ modules: [
             <p>An alternative configuration is possible using the <i>primevue</i> property.</p>
 
 <CodeHighlight class="language-javascript">
-modules: ['primevue/nuxt'],
+modules: ['@curbsidesos/primevue/nuxt'],
 primevue: {
     theme: 'md-light-indigo',
     ripple: true,
@@ -224,12 +224,12 @@ primevue: {
             begins with the following statement which means the key to be used in the components configuration is <strong>DataTable</strong>. Refer to the import section of a corresponding component or directive for more information.</p>
 
 <CodeHighlight lang="javascript">
-import DataTable from 'primevue/datatable';
-import Column from 'primevue/column';
+import DataTable from '@curbsidesos/primevue/datatable';
+import Column from '@curbsidesos/primevue/column';
 </CodeHighlight>
 
 <CodeHighlight class="language-javascript">
-modules: ['primevue/nuxt'],
+modules: ['@curbsidesos/primevue/nuxt'],
 primevue: {
     theme: 'md-light-indigo',
     ripple: true,

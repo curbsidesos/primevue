@@ -4,9 +4,9 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import DataTable from 'primevue/datatable';
-import Column from 'primevue/column';
-import ColumnGroup from 'primevue/columngroup';     //optional for column grouping
+import DataTable from '@curbsidesos/primevue/datatable';
+import Column from '@curbsidesos/primevue/column';
+import ColumnGroup from '@curbsidesos/primevue/columngroup';     //optional for column grouping
 </CodeHighlight>
 
                 <h5>Getting Started</h5>
@@ -696,7 +696,7 @@ data() {
                 use filterModel.value to populate the filter with your own form components and call the filterCallback with the event of your choice like @input, @change, @click.</p>
 <CodeHighlight lang="javascript">
 import CustomerService from '../../service/CustomerService';
-import {FilterMatchMode} from 'primevue/api';
+import {FilterMatchMode} from '@curbsidesos/primevue/api';
 
 export default {
     data() {
@@ -783,8 +783,8 @@ data() {
 
 <CodeHighlight lang="javascript">
 import Vue from 'vue';
-import PrimeVue from 'primevue/config';
-import {FilterMatchMode} from 'primevue/api',
+import PrimeVue from '@curbsidesos/primevue/config';
+import {FilterMatchMode} from '@curbsidesos/primevue/api',
 
 Vue.use(PrimeVue, {
     filterMatchModeOptions: {
@@ -835,7 +835,7 @@ matchModes: [
                 <h6>Custom Filter</h6>
                 <p>Custom filtering is implemented using the <i>FilterService</i>, first register your filter and add it to your <i>filterMatchModeOptions</i>.</p>
 <CodeHighlight lang="javascript">
-import {FilterService} from 'primevue/api';
+import {FilterService} from '@curbsidesos/primevue/api';
 
 FilterService.register('myfilter', (a,b) => a === b);
 </CodeHighlight>
@@ -2753,7 +2753,7 @@ export default {
 </CodeHighlight>
 
 <CodeHighlight lang="javascript">
-import {FilterMatchMode,FilterOperator} from 'primevue/api';
+import {FilterMatchMode,FilterOperator} from '@curbsidesos/primevue/api';
 import CustomerService from '../../service/CustomerService';
 
 export default {

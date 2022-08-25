@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Chips from 'primevue/chips';
+import Chips from '@curbsidesos/primevue/chips';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

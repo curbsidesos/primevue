@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import TieredMenu from 'primevue/tieredmenu';
+import TieredMenu from '@curbsidesos/primevue/tieredmenu';
 
 Vue.component('TieredMenu', TieredMenu);

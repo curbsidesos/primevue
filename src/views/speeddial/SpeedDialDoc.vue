@@ -5,7 +5,7 @@
 
                 <h5>Import</h5>
 <CodeHighlight lang="javascript">
-import SpeedDial from 'primevue/speeddial';
+import SpeedDial from '@curbsidesos/primevue/speeddial';
 </CodeHighlight>
 
                 <h5>Getting Started</h5>

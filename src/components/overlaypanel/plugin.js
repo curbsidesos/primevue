@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import OverlayPanel from 'primevue/overlaypanel';
+import OverlayPanel from '@curbsidesos/primevue/overlaypanel';
 
 Vue.component('OverlayPanel', OverlayPanel);

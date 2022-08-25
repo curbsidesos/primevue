@@ -7,7 +7,7 @@
 
                 <h6>Component</h6>
 <CodeHighlight lang="javascript">
-import Badge from 'primevue/badge';
+import Badge from '@curbsidesos/primevue/badge';
 </CodeHighlight>
 
                 <p>Content of the badge is specified using the <i>value</i> property.</p>
@@ -18,7 +18,7 @@ import Badge from 'primevue/badge';
 
                 <h6>Directive</h6>
 <CodeHighlight lang="javascript">
-import BadgeDirective from 'primevue/badgedirective';
+import BadgeDirective from '@curbsidesos/primevue/badgedirective';
 </CodeHighlight>
 
                 <p>When used as a directive, badge needs to be configured at the application with a name of your choice.</p>

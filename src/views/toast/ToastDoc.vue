@@ -6,7 +6,7 @@
                 <p>Toast messages are dynamically created using a <i>ToastService</i> that needs to be installed globally before the application
                     instance is created.</p>
 <CodeHighlight lang="javascript">
-import ToastService from 'primevue/toastservice';
+import ToastService from '@curbsidesos/primevue/toastservice';
 Vue.use(ToastService);
 
 //example application instance
@@ -18,7 +18,7 @@ new Vue({
 
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Toast from 'primevue/toast';
+import Toast from '@curbsidesos/primevue/toast';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>
@@ -206,7 +206,7 @@ this.$toast.removeAllGroups();
                 <h5>Constants</h5>
                 <p>ToastSeverity constants API is provided to easily choose a severity of the message with typescript.</p>
 <CodeHighlight lang="javascript">
-import {ToastSeverity} from 'primevue/api';
+import {ToastSeverity} from '@curbsidesos/primevue/api';
 
 export default {
     methods: {

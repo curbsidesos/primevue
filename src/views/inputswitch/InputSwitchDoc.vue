@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import InputSwitch from 'primevue/inputswitch';
+import InputSwitch from '@curbsidesos/primevue/inputswitch';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import InputText from 'primevue/inputtext';
+import InputText from '@curbsidesos/primevue/inputtext';
 
 Vue.component('InputText', InputText);

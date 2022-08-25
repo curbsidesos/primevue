@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import InputText from 'primevue/inputtext';
+import InputText from '@curbsidesos/primevue/inputtext';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

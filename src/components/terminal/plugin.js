@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Terminal from 'primevue/terminal';
+import Terminal from '@curbsidesos/primevue/terminal';
 
 Vue.component('Terminal', Terminal);

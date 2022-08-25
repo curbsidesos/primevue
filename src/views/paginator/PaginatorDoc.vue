@@ -4,7 +4,7 @@
             <TabPanel header="Documentation">
                 <h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Paginator from 'primevue/paginator';
+import Paginator from '@curbsidesos/primevue/paginator';
 </CodeHighlight>
 
                 <h5>Getting Started</h5>

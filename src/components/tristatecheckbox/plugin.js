@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import TriStateCheckbox from 'primevue/tristatecheckbox';
+import TriStateCheckbox from '@curbsidesos/primevue/tristatecheckbox';
 
 Vue.component('TriStateCheckbox', TriStateCheckbox);

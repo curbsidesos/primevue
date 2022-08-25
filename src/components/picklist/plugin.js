@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import PickList from 'primevue/picklist';
+import PickList from '@curbsidesos/primevue/picklist';
 
 Vue.component('PickList', PickList);

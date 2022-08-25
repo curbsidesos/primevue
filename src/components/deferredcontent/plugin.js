@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import DeferredContent from 'primevue/deferredcontent';
+import DeferredContent from '@curbsidesos/primevue/deferredcontent';
 
 Vue.component('DeferredContent', DeferredContent);

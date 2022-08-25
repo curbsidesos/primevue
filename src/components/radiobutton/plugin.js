@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import RadioButton from 'primevue/radiobutton';
+import RadioButton from '@curbsidesos/primevue/radiobutton';
 
 Vue.component('RadioButton', RadioButton);

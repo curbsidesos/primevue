@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import TreeTable from 'primevue/treetable';
+import TreeTable from '@curbsidesos/primevue/treetable';
 
 Vue.component('TreeTable', TreeTable);

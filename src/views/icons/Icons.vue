@@ -53,7 +53,7 @@ npm install primeicons --save
 </CodeHighlight>
 
 <CodeHighlight lang="javascript">
-import {PrimeIcons} from 'primevue/api';
+import {PrimeIcons} from '@curbsidesos/primevue/api';
 
 export default {
 	data() {

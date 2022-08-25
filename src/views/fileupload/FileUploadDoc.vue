@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import FileUpload from 'primevue/fileupload';
+import FileUpload from '@curbsidesos/primevue/fileupload';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

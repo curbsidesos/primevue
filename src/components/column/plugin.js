@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Column from 'primevue/column';
+import Column from '@curbsidesos/primevue/column';
 
 Vue.component('Column', Column);

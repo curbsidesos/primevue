@@ -413,7 +413,7 @@
 
 <CodeHighlight lang="javascript">
 import CustomerService from '../../service/CustomerService';
-import {FilterMatchMode,FilterOperator} from 'primevue/api/';
+import {FilterMatchMode,FilterOperator} from '@curbsidesos/primevue/api/';
 
 export default {
     data() {

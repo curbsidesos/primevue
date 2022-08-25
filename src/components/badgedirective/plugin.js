@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import BadgeDirective from 'primevue/badgedirective';
+import BadgeDirective from '@curbsidesos/primevue/badgedirective';
 
 Vue.directive('BadgeDirective', BadgeDirective);

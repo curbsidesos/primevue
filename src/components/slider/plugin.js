@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Slider from 'primevue/slider';
+import Slider from '@curbsidesos/primevue/slider';
 
 Vue.component('Slider', Slider);

@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Fieldset from 'primevue/fieldset';
+import Fieldset from '@curbsidesos/primevue/fieldset';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import RadioButton from 'primevue/radiobutton';
+import RadioButton from '@curbsidesos/primevue/radiobutton';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

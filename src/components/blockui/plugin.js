@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import BlockUI from 'primevue/blockui';
+import BlockUI from '@curbsidesos/primevue/blockui';
 
 Vue.component('BlockUI', BlockUI);

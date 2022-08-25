@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Editor from 'primevue/editor';
+import Editor from '@curbsidesos/primevue/editor';
 
 Vue.component('Editor', Editor);

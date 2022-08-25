@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import OverlayPanel from 'primevue/overlaypanel';
+import OverlayPanel from '@curbsidesos/primevue/overlaypanel';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import ProgressBar from 'primevue/progressbar';
+import ProgressBar from '@curbsidesos/primevue/progressbar';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Slider from 'primevue/slider';
+import Slider from '@curbsidesos/primevue/slider';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

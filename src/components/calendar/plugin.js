@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Calendar from 'primevue/calendar';
+import Calendar from '@curbsidesos/primevue/calendar';
 
 Vue.component('Calendar', Calendar);

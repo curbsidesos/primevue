@@ -4,8 +4,8 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Terminal from 'primevue/terminal';
-import TerminalService from 'primevue/terminalservice';
+import Terminal from '@curbsidesos/primevue/terminal';
+import TerminalService from '@curbsidesos/primevue/terminalservice';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>
@@ -17,7 +17,7 @@ import TerminalService from 'primevue/terminalservice';
 </CodeHighlight>
 
 <CodeHighlight lang="js">
-import TerminalService from 'primevue/terminalservice';
+import TerminalService from '@curbsidesos/primevue/terminalservice';
 
 export default {
      methods: {
@@ -133,7 +133,7 @@ export default {
 </CodeHighlight>
 
 <CodeHighlight lang="js">
-import TerminalService from 'primevue/terminalservice';
+import TerminalService from '@curbsidesos/primevue/terminalservice';
 
 export default {
      methods: {

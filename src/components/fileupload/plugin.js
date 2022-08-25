@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import FileUpload from 'primevue/fileupload';
+import FileUpload from '@curbsidesos/primevue/fileupload';
 
 Vue.component('FileUpload', FileUpload);

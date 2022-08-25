@@ -7,7 +7,7 @@
                     while installing PrimeVue.
                 </p>
 <CodeHighlight lang="js">
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@curbsidesos/primevue/config';
 
 Vue.use(PrimeVue, {ripple: true});
 </CodeHighlight>
@@ -17,7 +17,7 @@ Vue.use(PrimeVue, {ripple: true});
                 <h5>Directive</h5>
 				<p>Ripple is a directive that needs to be imported and configured with a name of your choice. Global configuration is done with the <i>Vue.directive</i> function.</p>
 <CodeHighlight lang="js">
-import Ripple from 'primevue/ripple';
+import Ripple from '@curbsidesos/primevue/ripple';
 
 Vue.directive('ripple', Ripple);
 </CodeHighlight>

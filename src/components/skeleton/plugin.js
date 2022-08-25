@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Skeleton from 'primevue/skeleton';
+import Skeleton from '@curbsidesos/primevue/skeleton';
 
 Vue.component('Skeleton', Skeleton);

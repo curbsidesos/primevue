@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import TriStateCheckbox from 'primevue/tristatecheckbox';
+import TriStateCheckbox from '@curbsidesos/primevue/tristatecheckbox';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

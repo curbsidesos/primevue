@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Ripple from 'primevue/ripple';
+import Ripple from '@curbsidesos/primevue/ripple';
 
 Vue.directive('ripple', Ripple);

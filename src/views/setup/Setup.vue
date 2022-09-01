@@ -185,7 +185,7 @@ Vue.use(PrimeVue, {ripple: true});
 modules: [
     [
         '@curbsidesos/primevue/nuxt', {
-            theme: string,      //name of the theme, defaults to saga-blue
+            theme: string,      //name of the theme or a local path, defaults to saga-blue
             ripple: boolean,    //whether the ripple animation is enabled, defaults to false
             components: [],     //an array of components to be registered
             directives: []      //an array of directives to be registered
@@ -199,7 +199,7 @@ modules: [
 modules: [
     [
         '@curbsidesos/primevue/nuxt', {
-            theme: 'md-light-indigo',
+            theme: 'md-light-indigo', // Or if you have a custon theme -> 'assets/styles/theme.css'
             ripple: true,
             components: ['InputText','Button','DataTable','Dialog'],
             directives: ['Tooltip','Badge']

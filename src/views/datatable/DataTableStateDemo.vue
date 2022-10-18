@@ -253,7 +253,7 @@
 </CodeHighlight>
 
 <CodeHighlight lang="javascript">
-import {FilterMatchMode} from 'primevue/api';
+import {FilterMatchMode} from '@curbsidesos/primevue/api';
 import CustomerService from '../../service/CustomerService';
 
 export default {

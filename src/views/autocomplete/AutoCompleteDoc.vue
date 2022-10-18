@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import AutoComplete from 'primevue/autocomplete';
+import AutoComplete from '@curbsidesos/primevue/autocomplete';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

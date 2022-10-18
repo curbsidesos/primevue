@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Carousel from 'primevue/carousel';
+import Carousel from '@curbsidesos/primevue/carousel';
 
 Vue.component('Carousel', Carousel);

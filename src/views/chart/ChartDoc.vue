@@ -12,7 +12,7 @@ npm install chart.js --save
 
 		<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Chart from 'primevue/chart';
+import Chart from '@curbsidesos/primevue/chart';
 </CodeHighlight>
 
         <h5>Chart Types</h5>

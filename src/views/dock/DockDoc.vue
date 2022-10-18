@@ -4,7 +4,7 @@
 		<TabPanel header="Documentation">
             <h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Dock from 'primevue/dock';
+import Dock from '@curbsidesos/primevue/dock';
 </CodeHighlight>
 
             <h5>Getting Started</h5>

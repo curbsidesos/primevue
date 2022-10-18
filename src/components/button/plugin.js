@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Button from 'primevue/button';
+import Button from '@curbsidesos/primevue/button';
 
 Vue.component('Button', Button);

@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import SplitButton from 'primevue/splitbutton';
+import SplitButton from '@curbsidesos/primevue/splitbutton';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

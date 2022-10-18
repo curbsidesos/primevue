@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import TabView from 'primevue/tabview';
+import TabView from '@curbsidesos/primevue/tabview';
 
 Vue.component('TabView', TabView);

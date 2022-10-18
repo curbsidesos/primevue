@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Listbox from 'primevue/listbox';
+import Listbox from '@curbsidesos/primevue/listbox';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

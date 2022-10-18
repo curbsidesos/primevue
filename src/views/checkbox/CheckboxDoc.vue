@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Checkbox from 'primevue/checkbox';
+import Checkbox from '@curbsidesos/primevue/checkbox';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

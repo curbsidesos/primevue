@@ -7,7 +7,7 @@
             <h5>Getting Started</h5>
             <p>Locale values are stored in the global configuration that becomes accessible after installing the PrimeVue.</p>
 <CodeHighlight lang="javascript">
-import PrimeVue from 'primevue/config';
+import PrimeVue from '@curbsidesos/primevue/config';
 
 Vue.use(PrimeVue);
 </CodeHighlight>

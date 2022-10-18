@@ -4,8 +4,8 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Accordion from 'primevue/accordion';
-import AccordionTab from 'primevue/accordiontab';
+import Accordion from '@curbsidesos/primevue/accordion';
+import AccordionTab from '@curbsidesos/primevue/accordiontab';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Row from 'primevue/row';
+import Row from '@curbsidesos/primevue/row';
 
 Vue.component('Row', Row);

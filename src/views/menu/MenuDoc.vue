@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Menu from 'primevue/menu';
+import Menu from '@curbsidesos/primevue/menu';
 </CodeHighlight>
 
                 <h5>MenuModel</h5>

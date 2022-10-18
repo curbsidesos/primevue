@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import TabMenu from 'primevue/tabmenu';
+import TabMenu from '@curbsidesos/primevue/tabmenu';
 
 Vue.component('TabMenu', TabMenu);

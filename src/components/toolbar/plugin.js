@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Toolbar from 'primevue/toolbar';
+import Toolbar from '@curbsidesos/primevue/toolbar';
 
 Vue.component('Toolbar', Toolbar);

@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Breadcrumb from 'primevue/breadcrumb';
+import Breadcrumb from '@curbsidesos/primevue/breadcrumb';
 
 Vue.component('Breadcrumb', Breadcrumb);

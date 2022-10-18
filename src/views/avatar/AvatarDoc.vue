@@ -4,8 +4,8 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Avatar from 'primevue/avatar';
-import AvatarGroup from 'primevue/avatargroup';
+import Avatar from '@curbsidesos/primevue/avatar';
+import AvatarGroup from '@curbsidesos/primevue/avatargroup';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

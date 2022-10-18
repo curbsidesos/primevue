@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Menubar from 'primevue/menubar';
+import Menubar from '@curbsidesos/primevue/menubar';
 
 Vue.component('Menubar', Menubar);

@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Editor from 'primevue/editor';
+import Editor from '@curbsidesos/primevue/editor';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

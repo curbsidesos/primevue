@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import AccordionTab from 'primevue/accordiontab';
+import AccordionTab from '@curbsidesos/primevue/accordiontab';
 
 Vue.component('AccordionTab', AccordionTab);

@@ -4,8 +4,8 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import TreeTable from 'primevue/treetable';
-import Column from 'primevue/column';
+import TreeTable from '@curbsidesos/primevue/treetable';
+import Column from '@curbsidesos/primevue/column';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

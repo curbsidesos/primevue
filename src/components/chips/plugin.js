@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Chips from 'primevue/chips';
+import Chips from '@curbsidesos/primevue/chips';
 
 Vue.component('Chips', Chips);

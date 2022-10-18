@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Badge from 'primevue/badge';
+import Badge from '@curbsidesos/primevue/badge';
 
 Vue.component('Badge', Badge);

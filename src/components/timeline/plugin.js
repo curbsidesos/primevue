@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Timeline from 'primevue/timeline';
+import Timeline from '@curbsidesos/primevue/timeline';
 
 Vue.component('Timeline', Timeline);

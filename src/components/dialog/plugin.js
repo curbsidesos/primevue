@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Dialog from 'primevue/dialog';
+import Dialog from '@curbsidesos/primevue/dialog';
 
 Vue.component('Dialog', Dialog);

@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import ColorPicker from 'primevue/colorpicker';
+import ColorPicker from '@curbsidesos/primevue/colorpicker';
 
 Vue.component('ColorPicker', ColorPicker);

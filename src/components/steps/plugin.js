@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Steps from 'primevue/steps';
+import Steps from '@curbsidesos/primevue/steps';
 
 Vue.component('Steps', Steps);

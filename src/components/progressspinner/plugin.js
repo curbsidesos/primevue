@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import ProgressSpinner from 'primevue/progressspinner';
+import ProgressSpinner from '@curbsidesos/primevue/progressspinner';
 
 Vue.component('ProgressSpinner', ProgressSpinner);

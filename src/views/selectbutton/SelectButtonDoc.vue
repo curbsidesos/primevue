@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import SelectButton from 'primevue/selectbutton';
+import SelectButton from '@curbsidesos/primevue/selectbutton';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

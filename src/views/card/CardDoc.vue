@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Card from 'primevue/card';
+import Card from '@curbsidesos/primevue/card';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import CascadeSelect from 'primevue/cascadeselect';
+import CascadeSelect from '@curbsidesos/primevue/cascadeselect';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Divider from 'primevue/divider';
+import Divider from '@curbsidesos/primevue/divider';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

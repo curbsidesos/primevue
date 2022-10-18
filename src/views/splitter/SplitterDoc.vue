@@ -4,8 +4,8 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Splitter from 'primevue/splitter';
-import SplitterPanel from 'primevue/splitterpanel';
+import Splitter from '@curbsidesos/primevue/splitter';
+import SplitterPanel from '@curbsidesos/primevue/splitterpanel';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import TabPanel from 'primevue/tabpanel';
+import TabPanel from '@curbsidesos/primevue/tabpanel';
 
 Vue.component('TabPanel', TabPanel);

@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Panel from 'primevue/panel';
+import Panel from '@curbsidesos/primevue/panel';
 
 Vue.component('Panel', Panel);

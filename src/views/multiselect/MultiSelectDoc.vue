@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import MultiSelect from 'primevue/multiselect';
+import MultiSelect from '@curbsidesos/primevue/multiselect';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

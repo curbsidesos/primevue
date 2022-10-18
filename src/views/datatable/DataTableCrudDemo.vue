@@ -284,7 +284,7 @@
 import ProductService from '../../service/ProductService';
 
 export default {
-import {FilterMatchMode} from 'primevue/api';
+import {FilterMatchMode} from '@curbsidesos/primevue/api';
 
 export default {
     data() {

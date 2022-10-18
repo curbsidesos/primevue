@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import SplitterPanel from 'primevue/splitterpanel';
+import SplitterPanel from '@curbsidesos/primevue/splitterpanel';
 
 Vue.component('SplitterPanel', SplitterPanel);

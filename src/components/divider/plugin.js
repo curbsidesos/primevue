@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Divider from 'primevue/divider';
+import Divider from '@curbsidesos/primevue/divider';
 
 Vue.component('Divider', Divider);

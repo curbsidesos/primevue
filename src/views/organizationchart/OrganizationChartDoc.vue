@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import OrganizationChart from 'primevue/organizationchart';
+import OrganizationChart from '@curbsidesos/primevue/organizationchart';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

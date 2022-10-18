@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
                 <h5>Import</h5>
 <CodeHighlight lang="javascript">
-import ImagePreview from 'primevue/imagepreview';
+import ImagePreview from '@curbsidesos/primevue/imagepreview';
 </CodeHighlight>
 
                 <h5>Getting Started</h5>

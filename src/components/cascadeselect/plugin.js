@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import CascadeSelect from 'primevue/cascadeselect';
+import CascadeSelect from '@curbsidesos/primevue/cascadeselect';
 
 Vue.component('CascadeSelect', CascadeSelect);

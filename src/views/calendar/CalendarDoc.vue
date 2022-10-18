@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="js">
-import Calendar from 'primevue/calendar';
+import Calendar from '@curbsidesos/primevue/calendar';
 </CodeHighlight>
 
                 <h5>Getting Started</h5>

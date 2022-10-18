@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import ScrollTop from 'primevue/scrolltop';
+import ScrollTop from '@curbsidesos/primevue/scrolltop';
 
 Vue.component('ScrollTop', ScrollTop);

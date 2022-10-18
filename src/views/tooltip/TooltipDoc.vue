@@ -5,7 +5,7 @@
 				<h5>Getting Started</h5>
 				<p>Tooltip is a directive that needs to be imported and configured with a name of your choice. Global configuration is done with the <i>Vue.directive</i> function.</p>
 <CodeHighlight lang="js">
-import Tooltip from 'primevue/tooltip';
+import Tooltip from '@curbsidesos/primevue/tooltip';
 
 Vue.directive('tooltip', Tooltip);
 </CodeHighlight>

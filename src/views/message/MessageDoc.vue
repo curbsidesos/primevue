@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Message from 'primevue/message';
+import Message from '@curbsidesos/primevue/message';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>
@@ -58,7 +58,7 @@ data() {
 
 				<h5>Inline Message Component</h5>
 <CodeHighlight lang="javascript">
-import InlineMessage from 'primevue/inlinemessage';
+import InlineMessage from '@curbsidesos/primevue/inlinemessage';
 </CodeHighlight>
 
 				<p>InlineMessage component is useful in cases where a single message needs to be displayed related to an element such as forms. It has one property, <i>severity</i> of the message.</p>

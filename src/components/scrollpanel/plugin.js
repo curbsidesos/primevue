@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import ScrollPanel from 'primevue/scrollpanel';
+import ScrollPanel from '@curbsidesos/primevue/scrollpanel';
 
 Vue.component('ScrollPanel', ScrollPanel);

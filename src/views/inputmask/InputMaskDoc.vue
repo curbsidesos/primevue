@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import InputMask from 'primevue/inputmask';
+import InputMask from '@curbsidesos/primevue/inputmask';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

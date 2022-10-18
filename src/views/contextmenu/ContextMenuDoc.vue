@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import ContextMenu from 'primevue/contextmenu';
+import ContextMenu from '@curbsidesos/primevue/contextmenu';
 </CodeHighlight>
 
                 <h5>MenuModel</h5>

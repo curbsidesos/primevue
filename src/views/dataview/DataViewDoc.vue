@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 				<CodeHighlight lang="javascript">
-import DataView from 'primevue/dataview';
+import DataView from '@curbsidesos/primevue/dataview';
 				</CodeHighlight>
 
                 <h5>PrimeFlex</h5>

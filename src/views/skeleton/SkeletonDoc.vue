@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Skeleton from 'primevue/skeleton';
+import Skeleton from '@curbsidesos/primevue/skeleton';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

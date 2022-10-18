@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Knob from 'primevue/knob';
+import Knob from '@curbsidesos/primevue/knob';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

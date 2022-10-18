@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import DeferredContent from 'primevue/deferredcontent';
+import DeferredContent from '@curbsidesos/primevue/deferredcontent';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

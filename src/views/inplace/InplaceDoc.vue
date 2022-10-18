@@ -4,7 +4,7 @@
 			<TabPanel header="Documentation">
 				<h5>Import</h5>
 <CodeHighlight lang="javascript">
-import Inplace from 'primevue/inplace';
+import Inplace from '@curbsidesos/primevue/inplace';
 </CodeHighlight>
 
 				<h5>Getting Started</h5>

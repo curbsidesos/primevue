@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import DataTable from 'primevue/datatable';
+import DataTable from '@curbsidesos/primevue/datatable';
 
 Vue.component('DataTable', DataTable);

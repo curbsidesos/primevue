@@ -100,6 +100,9 @@ export default {
         this.infoText = this.promptText;
         this.mediumCheckRegExp = new RegExp(this.mediumRegex);
         this.strongCheckRegExp = new RegExp(this.strongRegex);
+        if(this.value){
+            this.d_value = this.value;
+        }
     },
     beforeDestroy() {
         this.restoreAppend();
@@ -166,6 +169,7 @@ export default {
         onFocus(event) {
             this.focused = true;
             if (this.feedback) {
+                this.setPasswordMeter()
                 this.overlayVisible = true;
             }
             this.$emit('focus', event);
@@ -180,35 +184,9 @@ export default {
         onKeyUp(event) {
             if (this.feedback) {
                 let value = event.target.value;
-                let label = null;
-                let meter = null;
-                switch (this.testStrength(value)) {
-                    case 1:
-                        label = this.weakText;
-                        meter = {
-                            strength: 'weak',
-                            width: '33.33%'
-                        };
-                        break;
-                    case 2:
-                        label = this.mediumText;
-                        meter = {
-                            strength: 'medium',
-                            width: '66.66%'
-                        };
-                        break;
-                    case 3:
-                        label = this.strongText;
-                        meter = {
-                            strength: 'strong',
-                            width: '100%'
-                        };
-                        break;
-                    default:
-                        label = this.promptText;
-                        meter = null;
-                        break;
-                }
+
+                const { meter, label }  = this.checkPasswordStrength(value);
+
                 this.meter = meter;
                 this.infoText = label;
                 if (!this.overlayVisible) {
@@ -217,6 +195,55 @@ export default {
             }
 
             this.$emit('keyup', event);
+        },
+        setPasswordMeter() {
+            if(!this.feedback || !this.d_value) return;
+
+            const { meter, label }  = this.checkPasswordStrength(this.d_value);
+
+            this.meter = meter;
+            this.infoText = label;
+
+            if (!this.overlayVisible) {
+                this.overlayVisible = true;
+            }
+        },
+        checkPasswordStrength(value) {
+            let label = null;
+            let meter = null;
+
+            switch (this.testStrength(value)) {
+                    case 1:
+                        label = this.weakText;
+                        meter = {
+                            strength: 'weak',
+                            width: '33.33%'
+                        };
+                        break;
+
+                    case 2:
+                        label = this.mediumText;
+                        meter = {
+                            strength: 'medium',
+                            width: '66.66%'
+                        };
+                        break;
+
+                    case 3:
+                        label = this.strongText;
+                        meter = {
+                            strength: 'strong',
+                            width: '100%'
+                        };
+                        break;
+
+                    default:
+                        label = this.promptText;
+                        meter = null;
+                        break;
+            }
+
+            return { label, meter };
         },
         bindScrollListener() {
             if (!this.scrollHandler) {
@@ -311,7 +338,7 @@ export default {
             return this.promptLabel || this.$primevue.config.locale.passwordPrompt;
         }
     },
-     components: {
+    components: {
         'PInputText': InputText
     }
 }

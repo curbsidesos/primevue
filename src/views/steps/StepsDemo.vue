@@ -22,38 +22,38 @@
 </template>
 
 <script>
-import StepsDoc from './StepsDoc';
+import StepsDoc from "./StepsDoc";
 
 export default {
     data() {
         return {
-            items: [{
-                label: 'Personal',
-                to: '/steps'
-            },
-            {
-                label: 'Seat',
-                to: '/steps/seat'
-            },
-            {
-                label: 'Payment',
-                to: '/steps/payment'
-            },
-            {
-                label: 'Confirmation',
-                to: '/steps/confirmation'
-            }],
+            items: [
+                {
+                    label: "Personal",
+                    to: "/steps",
+                },
+                {
+                    label: "Seat",
+                    to: "/steps/seat",
+                },
+                {
+                    label: "Payment",
+                    to: "/steps/payment",
+                },
+                {
+                    label: "Confirmation",
+                    to: "/steps/confirmation",
+                }
+            ],
             formObject: {}
-        }
+        };
     },
     components: {
-        'StepsDoc': StepsDoc
+        "StepsDoc": StepsDoc,
     },
     methods: {
         nextPage(event) {
-            for (let field in event.formData) {
-                this.formObject[field] = event.formData[field];
-            }
+            this.formObject = { ...this.formObject, ...event.formData };
 
             this.$router.push(this.items[event.pageIndex + 1].to);
         },
@@ -61,18 +61,18 @@ export default {
             this.$router.push(this.items[event.pageIndex - 1].to);
         },
         complete() {
-            this.$toast.add({severity:'success', summary:'Order submitted', detail: 'Dear, ' + this.formObject.firstname + ' ' + this.formObject.lastname + ' your order completed.'});
-        }
-    }
-}
+            this.$toast.add({severity: "success", summary: "Order submitted", detail: "Dear, " + this.formObject.firstname + " " + this.formObject.lastname + " your order completed."});
+        },
+    },
+};
 </script>
 
 <style scoped lang="scss">
-::v-deep b {
-    display: block
+:deep(b) {
+    display: block;
 }
 
-::v-deep .p-card-body {
+:deep(.p-card-body) {
     padding: 2rem;
 }
 </style>

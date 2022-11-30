@@ -6,12 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Fixes/features added in [primevue v2.10.1](https://github.com/primefaces/primevue/blob/master/CHANGELOG.md#2101-2022-11-18)
+
 ## [1.1.0] - 2022-09-01
 ### Added
+
 - Add support for custom themes in nuxt projects.
 
 ## [1.0.0] - 2022-09-01
 ### Added
+
 - All features included in the version 2.10.0.
 - Remove readonly attribute to the input hidden in the Dropdown.
 

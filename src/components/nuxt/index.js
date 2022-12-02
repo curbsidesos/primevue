@@ -10,9 +10,9 @@ export default function (moduleOptions) {
         themePath = theme;
     }
 
-    this.options.css.push(themePath);
     this.options.css.push('@curbsidesos/primevue/resources/primevue.min.css');
     this.options.css.push('primeicons/primeicons.css');
+    this.options.css.push(themePath);
 
     if (config.ripple) {
         this.addPlugin(path.resolve(__dirname, '../config/plugin-ripple.js'));

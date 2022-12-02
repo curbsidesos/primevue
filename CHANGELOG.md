@@ -6,9 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2022-12-2
 ### Added
 
 - Fixes/features added in [primevue v2.10.1](https://github.com/primefaces/primevue/blob/master/CHANGELOG.md#2101-2022-11-18)
+
+### Fixed
+
+- Ordered the custom styles for nuxt
 
 ## [1.1.0] - 2022-09-01
 ### Added

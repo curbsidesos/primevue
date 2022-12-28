@@ -13,6 +13,7 @@
             </li>
         </ul>
         <i class="p-autocomplete-loader pi pi-spinner pi-spin" v-if="searching"></i>
+        <i :class="['p-autocomplete-loader', icon]" v-if="!searching && icon"></i>
         <Button ref="dropdownButton" type="button" icon="pi pi-chevron-down" class="p-autocomplete-dropdown" :disabled="$attrs.disabled" @click="onDropdownClick" v-if="dropdown"/>
         <transition name="p-connected-overlay" @enter="onOverlayEnter" @leave="onOverlayLeave">
             <div ref="overlay" class="p-autocomplete-panel p-component" :style="{'max-height': scrollHeight}" v-if="overlayVisible">
@@ -87,6 +88,10 @@ export default {
         autoHighlight: {
             type: Boolean,
             default: false
+        },
+        icon: {
+            type: String,
+            default: ''
         }
     },
     timeout: null,
@@ -530,12 +535,14 @@ export default {
 .p-autocomplete {
     display: inline-flex;
     position: relative;
+    width: 100%;
 }
 
 .p-autocomplete-loader {
     position: absolute;
     top: 50%;
     margin-top: -.5rem;
+    color: #AFC8DA;
 }
 
 .p-autocomplete-dd .p-autocomplete-input {

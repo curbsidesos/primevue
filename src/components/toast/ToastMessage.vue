@@ -3,7 +3,12 @@
         <div class="p-toast-message-content" :class="message.contentStyleClass">
             <ToastMessageTemplate v-if="templates['message']" :message="message" :template="templates['message']" />
             <template v-else>
-                <span :class="iconClass"></span>
+                <template v-if="message.iconProp !== undefined && message.iconProp.length">
+                    <span v-html="message.iconProp"></span>
+                </template>
+                <template v-else>
+                    <span :class="iconClass"></span>
+                </template>
                 <div class="p-toast-message-text">
                     <span class="p-toast-summary">{{message.summary}}</span>
                     <div class="p-toast-detail">{{message.detail}}</div>

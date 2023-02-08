@@ -8,7 +8,17 @@
                 <slot name="icons"></slot>
                 <button v-if="toggleable" class="p-panel-header-icon p-panel-toggler p-link" @click="toggle" type="button"
                     :id="ariaId +  '_header'" :aria-controls="ariaId + '_content'" :aria-expanded="!d_collapsed" v-ripple>
-                    <span :class="{'pi pi-minus': !d_collapsed, 'pi pi-plus': d_collapsed}"></span>
+                    <template v-if="iconProps !== undefined && Object.keys(iconProps).length !== 0">
+                        <template v-if="d_collapsed">
+                            <span v-html="iconProps.showIcon"></span>
+                        </template>
+                        <template v-else>
+                            <span v-html="iconProps.closeIcon"></span>
+                        </template>
+                    </template>
+                    <template v-else>
+                        <span :class="{'pi pi-minus': !d_collapsed, 'pi pi-plus': d_collapsed}"></span>
+                    </template>
                 </button>
             </div>
         </div>
@@ -30,7 +40,8 @@ export default {
     props: {
         header: String,
         toggleable: Boolean,
-        collapsed: Boolean
+        collapsed: Boolean,
+        iconProps: Object,
     },
     data() {
         return {

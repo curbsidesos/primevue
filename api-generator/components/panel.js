@@ -16,6 +16,12 @@ const PanelProps = [
         type: "boolean",
         default: "null",
         description: "Defines the initial state of panel content."
+    },
+    {
+        name: "iconProps",
+        type: "object",
+        default: "null",
+        description: "Defines the icons that are going to be used if the panel is toggleable. The object attributes are 'showIcon' and 'closeIcon', and both are strings that recieve html syntax",
     }
 ];
 

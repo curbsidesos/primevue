@@ -5,6 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.3.0] - 2023-02-08
+### Added
+
+- Nuxt module option to render PrimeIcons stylesheet or not.
+- Custom icon prop to toast component.
+- Custom icon prop to panel component.
+
 ## [1.2.0] - 2022-12-28
 ### Added
 

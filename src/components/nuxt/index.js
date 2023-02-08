@@ -11,7 +11,9 @@ export default function (moduleOptions) {
     }
 
     this.options.css.push('@curbsidesos/primevue/resources/primevue.min.css');
-    this.options.css.push('primeicons/primeicons.css');
+    if (config.usePrimeIcons) {
+        this.options.css.push("primeicons/primeicons.css");
+    }
     this.options.css.push(themePath);
 
     if (config.ripple) {

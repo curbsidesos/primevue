@@ -38,11 +38,21 @@ const ToastSlots = [
     }
 ];
 
+const ToastMessageProps = [
+    {
+        name: "iconProp",
+        type: "string",
+        default: "null",
+        description: "Html content for message icon"
+    }
+]
+
 module.exports = {
     toast: {
         name: "Toast",
         description: "Toast is used to display messages in an overlay.",
         props: ToastProps,
-        slots: ToastSlots
+        slots: ToastSlots,
+        messageProps: ToastMessageProps
     }
 };
